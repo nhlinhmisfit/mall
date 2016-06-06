@@ -135,12 +135,33 @@ header .nav a {
     top: 24px;
     left: 100px;
     color: white;
-}
+}s
 #fixedMenu .bottom-icon {
     position: absolute;
     top: 20px;
     right: 150px;
 }
+.sub-menu {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 300px;
+    padding-left: 150px;
+    display: none;
+}
+.sub-menu ul {
+    position: relative;
+}
+.sub-menu .inline {
+    display: inline-block;
+    width: 30%;
+}
+.sub-menu .inline:last-child {
+    position: absolute;
 
-
+}
+.sub-menu .inline hr{ 
+    width: 200px;
+    margin-left: 0;
+}
 
